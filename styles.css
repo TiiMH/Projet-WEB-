@@ -1,0 +1,87 @@
+html * {
+  box-sizing: border-box;
+}
+body {
+ height: 300px;
+ background-color: #cccccc;
+ background-image: repeating-radial-gradient(#8ebf42, #eee 15%, #ccc 30%);
+ font-family: Arial, Helvetica;  
+ font-size: 115%;
+}
+
+/* Pour aligner du texte */
+h2 {
+    text-align: center
+}
+
+/* Pour aligner une image */
+div {
+    text-align: center 
+}
+ 
+/* Modifcation de la table */ 
+table {
+    background-color: white;
+    border-width:1px; 
+    border-style:solid; 
+    border-color:black;
+    border-collapse:collapse;
+    width:50%;
+    margin : auto;
+    }
+
+   td { 
+    border-width:1px;
+    border-style:solid; 
+    border-color:rgb(0, 0, 0);
+    width:50%;
+    }
+
+/* Pour l'encadrement des titres */ 
+
+section {
+    width: 50%;
+    height: 100px;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 5px #000000, 10px 10px #ccc, 15px 15px #000000;
+    margin : auto;
+    }
+
+/* Les styles pour la nav bar latérale */
+.sidebar {
+    width: 200px;
+    height: 100%;
+    background-color: #f0f0f0;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 8px 16px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .sidebar li a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Les styles pour le contenu principal */
+  .content {
+    margin-left: 200px; /* La largeur de la nav bar latérale */
+    padding: 20px;
+  }
+
+
+ 
+
